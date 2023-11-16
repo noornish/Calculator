@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:url(https://img.freepik.com/free-vector/vibrant-summer-ombre-background-vector_53876-105765.jpg?size=626&ext=jpg&ga=GA1.1.1771125240.1690177264&semt=ais);
+  background-size: cover;
+  
+}
+
+.calculator {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(105, 178, 207, 0.1);
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NXF1yJGePFDRegl_Mqjj2x_gYxJp5fYwS6-wJZ-bMIR2qnzf);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.result {
+  height: 60px;
+  background-color: #f2f2f2af;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 8px;
+  text-align: right;
+  font-size: 24px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  width:100;
+  overflow-y:auto;
+  
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table button {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #828aa065;
+  cursor: pointer;
+  box-shadow: 0 6px 8px rgba(61, 61, 148, 0.76), 0 6px 8px rgba(61, 61, 148, 0.76); /* Add box-shadow for shadow effect */
+  outline: 1px solid rgba(61, 61, 148, 0.76);
+}
+
+table button:hover {
+  background-color: #828aa065;
+}
+
+
+
+
+
+table td {
+  padding: 5px;
+  width: 25%;
+}
